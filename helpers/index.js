@@ -1,5 +1,5 @@
 const HttpError = require("./HttpError");
 const ctrlWrapper = require("./ctrlWrapper");
-const validateBody = require("./validateBody");
+const handleMongooseErr = require("./handleMongooseErr");
 
-module.exports = { HttpError, ctrlWrapper, validateBody };
+module.exports = { HttpError, ctrlWrapper, handleMongooseErr };
